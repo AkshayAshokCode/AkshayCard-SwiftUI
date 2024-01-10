@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4071DD82B4E1CCD00AAAA62 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4071DD72B4E1CCD00AAAA62 /* Pacifico-Regular.ttf */; };
+		C4071DDB2B4E1E8C00AAAA62 /* AkshayCard-SwiftUI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4071DDA2B4E1E8C00AAAA62 /* AkshayCard-SwiftUI-Info.plist */; };
+		C4071DDD2B4E269B00AAAA62 /* InfoVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4071DDC2B4E269B00AAAA62 /* InfoVIew.swift */; };
 		C485FB452B4CD29700A2CCE7 /* AkshayCard_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485FB442B4CD29700A2CCE7 /* AkshayCard_SwiftUIApp.swift */; };
 		C485FB472B4CD29700A2CCE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485FB462B4CD29700A2CCE7 /* ContentView.swift */; };
 		C485FB492B4CD29800A2CCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C485FB482B4CD29800A2CCE7 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4071DD72B4E1CCD00AAAA62 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C4071DDA2B4E1E8C00AAAA62 /* AkshayCard-SwiftUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AkshayCard-SwiftUI-Info.plist"; sourceTree = "<group>"; };
+		C4071DDC2B4E269B00AAAA62 /* InfoVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVIew.swift; sourceTree = "<group>"; };
 		C485FB412B4CD29700A2CCE7 /* AkshayCard SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AkshayCard SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C485FB442B4CD29700A2CCE7 /* AkshayCard_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkshayCard_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C485FB462B4CD29700A2CCE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4071DD62B4E1CA200AAAA62 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4071DD72B4E1CCD00AAAA62 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		C485FB382B4CD29700A2CCE7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +65,11 @@
 		C485FB432B4CD29700A2CCE7 /* AkshayCard SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C4071DDA2B4E1E8C00AAAA62 /* AkshayCard-SwiftUI-Info.plist */,
+				C4071DD62B4E1CA200AAAA62 /* fonts */,
 				C485FB442B4CD29700A2CCE7 /* AkshayCard_SwiftUIApp.swift */,
 				C485FB462B4CD29700A2CCE7 /* ContentView.swift */,
+				C4071DDC2B4E269B00AAAA62 /* InfoVIew.swift */,
 				C485FB482B4CD29800A2CCE7 /* Assets.xcassets */,
 				C485FB4A2B4CD29800A2CCE7 /* Preview Content */,
 			);
@@ -125,8 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4071DD82B4E1CCD00AAAA62 /* Pacifico-Regular.ttf in Resources */,
 				C485FB4C2B4CD29800A2CCE7 /* Preview Assets.xcassets in Resources */,
 				C485FB492B4CD29800A2CCE7 /* Assets.xcassets in Resources */,
+				C4071DDB2B4E1E8C00AAAA62 /* AkshayCard-SwiftUI-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C485FB472B4CD29700A2CCE7 /* ContentView.swift in Sources */,
+				C4071DDD2B4E269B00AAAA62 /* InfoVIew.swift in Sources */,
 				C485FB452B4CD29700A2CCE7 /* AkshayCard_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +294,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AkshayCard SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AkshayCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +322,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AkshayCard SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AkshayCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
